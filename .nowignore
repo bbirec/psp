@@ -1,0 +1,6 @@
+node_modules
+.shadow-cljs
+.m2
+/public/js
+.git
+package-lock.json

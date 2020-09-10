@@ -1,4 +1,16 @@
 {
-  "name": "psp",
-  "scope": "bbirec"
+    "version": 2,
+    "scope": "bbirec",
+    "builds": [
+        {
+            "src": "shadow-cljs.edn",
+            "use": "@jntn/now-shadow-cljs"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/public/$1"
+        }
+    ]
 }

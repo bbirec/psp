@@ -1,0 +1,13 @@
+{:builds
+ {:app {:asset-path "/js"
+        :modules
+        {:main
+         {:init-fn app.core/main}}
+        :output-dir "public/js"
+        :target :browser}}
+ :dependencies [[binaryage/devtools "0.9.10"]
+                [reagent "0.10.0"]
+                [binaryage/oops "0.7.0"]]
+ :dev-http {3000 "public"}
+ :nrepl {:port 3333}
+ :source-paths ["src"]}

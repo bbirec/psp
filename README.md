@@ -1,5 +1,1 @@
-# Perspective
-
-My personal hosting for [Perspective](https://perspective.finos.org/)
-
-Visit https://psp.bbirec.com
+## 제누이오 라벨지 생성

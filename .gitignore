@@ -1,0 +1,7 @@
+.vercel
+node_modules
+.shadow-cljs
+/public/js
+.DS_Store
+.clj-kondo
+.m2
