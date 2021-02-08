@@ -77,7 +77,8 @@ window.addEventListener("WebComponentsReady", function() {
       parent.appendChild(psp);
 
       // Load the CSV data into `<perspective-viewer>`.
-      psp.load(txt);
+      const data = perspective.worker().table(txt)
+      psp.load(data);
     };
 
     // Read the contents of the CSV - triggering the onload when finished.
